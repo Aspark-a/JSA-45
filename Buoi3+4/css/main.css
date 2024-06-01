@@ -19,13 +19,12 @@ main  {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 0 40px;
 }
 
 /* responsive */
 @media screen and (max-width: 720px) {
-    main {
-        padding: 0 auto;
-    }
 
     #search-bar {
         width: 200px;
@@ -33,5 +32,6 @@ main  {
 
     #product-list {
         grid-template-columns: auto auto;
+        padding: 0 10px;
     }
 }

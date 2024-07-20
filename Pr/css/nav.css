@@ -57,6 +57,19 @@
     width: 250px;
     height: 300px;
   }
+
+ .slidebg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(.../asset/1.jpg);
+  background-image: url(.../asset/2.jpg);
+  background-image: url(.../asset/4.jpg);
+  background-repeat: no-repeat;
+  z-index: -1;
+  filter: blur(5px);
+ }
   
   p {
     font-size: 20px;
